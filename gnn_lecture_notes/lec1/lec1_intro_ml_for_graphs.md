@@ -53,10 +53,64 @@ Map nodes to d-dimensional **embeddings** such that similar nodes in the network
   * Graph generation: Drug discovery
   * Graph evolution: Physical simulation
 
-Example of using one of the above:
+
+## Example of Node-level ML Tasks
+
 
 Key idea: "Spatial graph"
  - Nodes: Amino acids in protein sequence
  - Edges: Proximity between amino acids (residues)
 
 ![spatial_graph](img/spatial_graph.jpg)
+
+
+### Example of Edge-level ML Tasks
+
+Recommender Systems
+
+Users interacts with items:
+ - Watch movies, buy merchandise, listen to music
+ - Nodes: Users and items
+ - Edges: User-item interactions
+
+Goal: Recommend items users like
+
+![recommender](img/recommend.jpg)
+
+![graph_recommender](img/graph_rec.jpg)
+
+
+### Example of Subgraph-level ML Tasks
+
+Road Network as a Graph
+
+- Nodes: Road segments
+- Edges: Connectivity between road segments
+- Prediction: Time of Arrival (ETA)
+
+![trafic_gnn](img/traffic_gnn.jpg)
+
+### Example of Graph-level ML Tasks
+
+Drug discovery
+
+- Antibiotics are small molecular graphs
+ - Nodes: Atoms
+ - Edges: Chemical bonds
+
+![antiobiotic_graph](img/antiobiotic.jpg)
+
+## Choice of Graph Representation
+
+![components](img/component_network.jpg)
+
+How to build a graph:
+
+Ask yourself what are <b>nodes</b>, what are <b>edges</b>.
+
+- In some cases, there is a unique, unambiguous representation
+- In other cases, the representation is by no means unique
+- The way you assign links will determine the nature of the question you can study
+
+Directed vs. Undirected Graphs
+![direct_vs_undirect](img/directed_undirected.jpg)
