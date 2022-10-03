@@ -25,7 +25,7 @@ Graphs are the new frontier of deep learning, as it connect things.
 
 - Arbitrary size and complex topological structure (i.e. no spatial locality like grids)
 
-![networks_vs_images](img/net_vs_imgs.jpg)
+![networks_vs_images](img/net_vs_img.jpg)
 
 - No fixed node ordering or reference point
 - Often dynamic and have multimodal features
