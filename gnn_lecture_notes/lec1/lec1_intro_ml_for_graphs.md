@@ -39,7 +39,7 @@ Map nodes to d-dimensional **embeddings** such that similar nodes in the network
 
 
 <b>Different Types of Tasks</b>
-![types_tasks](img/type_tasks.jpg)
+![types_tasks](img/types_tasks.jpg)
 
 - **Node classification**: Predict a property of node
   * Ex: categorize online users/ items
