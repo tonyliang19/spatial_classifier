@@ -6,18 +6,18 @@ Each section should have key points, where each needs to be refrained and paraph
 
 ## Keywords:
 
-- Myocardial infarction: heart attack
-- Single-cell gene expession: ...
-- Chromatin Accessibility: ...
-- Spatial Transcriptomic: ...
-- Myocadium: ...
+- **Myocardial infarction**: heart attack
+- **Single-cell gene expession**: ... 
+- **Chromatin Accessibility**: ...
+- **Spatial Transcriptomic**: ...
+- **Myocadium**: ...
 
 
 ## Abstract
 Key points:
 - Incomplete understanding of remodelling processes limits effectiveness of therapies to reduce late-stage mortality
  
-- Integrative high-resolution map of human cardiac (heart) remodelling aftermyocardial infarction 
+- Integrative high-resolution map of human cardiac (heart) remodelling after [myocardial infarction](## "Heart Attack")
 
 
 
@@ -27,7 +27,7 @@ Key points:
 
 ## Multi-omic map of myocardial infarction
 
-
+[mc](#myo_inf)
 
 ## Molecular mapping of cell types in space
 
