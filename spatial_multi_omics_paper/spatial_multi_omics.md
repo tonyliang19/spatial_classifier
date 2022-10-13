@@ -7,10 +7,19 @@ Each section should have key points, where each needs to be refrained and paraph
 ## Keywords:
 
 - **Myocardial infarction**: heart attack
-- **Single-cell gene expession**: ... 
+
+- **Transcriptomic**:
+study of transcriptome --- complete set of RNA, or expession profiling, as it's a study of expepressions levels
+
+- **Single-cell gene expession**: Process of turning on specific gene to start making messenger RNA
+
 - **Chromatin Accessibility**: ...
+
 - **Spatial Transcriptomic**: ...
-- **Myocadium**: ...
+
+- **Myocadium**: Muscular layer of the heart.
+
+- **Isochemic Zone (IZ)**: ...
 
 
 ## Abstract
