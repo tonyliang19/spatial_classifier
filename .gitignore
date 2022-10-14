@@ -1,0 +1,7 @@
+# Checkins
+checkin/
+*checkin/
+
+# Jupyter
+
+.ipynb_checkpoints/
