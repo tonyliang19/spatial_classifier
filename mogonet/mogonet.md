@@ -21,10 +21,28 @@ MOGONET is an end-to-end model, where both omics-specific **GCNs** and **VCDN** 
 ### Preprocessing
 
 Preprocessing and feature preselection were performed on each omics data type individually to remove:
+
  - Noise
  - Artifact
  - Redundant features that may deteriorate perfomance of classfication tasks.
 
+First, for DNA methylation data, only probles corresponding to probes corresponding to probles in the Illumina Infinium HumanMethylation27 BeadChip were retained for better interpretability of the results.
+
+Then further filtered out features with no **signal** (zero mean values) or low variances. Specifically, applied different **variance filtering thresholds** for different types of omics data (0.1 fo mRNA expression data and 0.001 for DNA methylation data) as different omics data types came with different ranges.
+
+Since omics data could contain redundant features that might have negative effects on classifciation performance, we further preselected omics features through statistical tests:
+ 
+ > For each classfication task, ANOVA F-value was calculated sequentially using the training data to evaluate whether a feature was **significantly** different across different classes.
+
+ > False discovery rate (FDR) controlling procedures were applied for multiple test compensation.
+
+However, selecting too few features might also result in only selecting **highly correlated** features, which could potentially restrain the models from taking advantage of **complementay information** from diverse features. To avoid this:
+
+ - Determined number of preselected features for each additional rule:
+   + First principal component of data after feature preselection should explain $<50\% $ of the varince
+
+
+Finally, individually scaled each type of omics data to [0, 1] through linear transformations for training MOGONET.
 
 
 ### GCN
