@@ -12,9 +12,9 @@ MOGONET is a framework for classification tasks with multi-omics data. Its workf
 
 Keywords: **Graph Convolutional Networks (GCN)**, **View Correlation Discovery Network(VCDN)**
 
- 1. [Preprocessing](# Preprocessing)
- 2. [Omics-specific learning via GCNs](# GCN)
- 3. [Multi-omics integration via VCDN](# VCDN)
+ 1. [Preprocessing](#preprocessing)
+ 2. [Omics-specific learning via GCNs](#gcn)
+ 3. [Multi-omics integration via VCDN](#vcdn)
 
 MOGONET is an end-to-end model, where both omics-specific **GCNs** and **VCDN** are trained jointly.
 
